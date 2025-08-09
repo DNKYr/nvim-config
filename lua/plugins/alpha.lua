@@ -22,8 +22,8 @@ return {
 
       -- Buttons
       dashboard.section.buttons.val = {
-        dashboard.button("f", "📂 Find File", ":Telescope find_files<CR>"),
-        dashboard.button("g", "🔍 Live Grep", ":Telescope live_grep<CR>"),
+        dashboard.button("SPC f f", "📂 Find File", ":Telescope find_files<CR>"),
+        dashboard.button("SPC f g", "🔍 Live Grep", ":Telescope live_grep<CR>"),
         dashboard.button("gs", " Git Status", ":Git<CR>"),
         dashboard.button("n", "📝 New File", ":ene<CR>"),
         dashboard.button("r", "🕒 Recent Files", ":Telescope oldfiles<CR>"),
